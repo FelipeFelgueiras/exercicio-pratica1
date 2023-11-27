@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --BORER-RADIUS: 20px;
+    --PADDING: 1.5rem;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    border-radius: var(--BORER-RADIUS);
+    max-width: 20rem;
+    height: auto;
+    padding: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--BORER-RADIUS);
+}
+
+h2 {
+    padding-top: var(--PADDING);
+}
+
+p {
+    padding-top: var(--PADDING);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    color: hsl(220, 15%, 55%);
+    font-size: 0.93rem;
+}
